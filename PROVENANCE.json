@@ -1,0 +1,25 @@
+{
+  "publication": "Public comparison explicitly requested by user; new public Bitz3d/steaming-pars-review repository authorized.",
+  "scope": "Review only, not receiving-application deployment. Flat authoring look approved; depth and encoded appearances pending.",
+  "sources": {
+    "flat_authoring_sha256": "98bd303c22941b59bed8e48d8912a90e8ba6386473b4674a8db8bd1ee1f152e2",
+    "depth_authoring_sha256": "0e44bf7d55275ff6410c6df8ef4dac74c034811f51377aca7f9fe0fad647e74d"
+  },
+  "files": [
+    {
+      "path": "public/fixtures/flat.glb",
+      "sha256": "e46a81c3fc2889f18cd8ed4fe4343c7af5e1ac80630174fb8617e22b9a48c47a",
+      "bytes": 3280068
+    },
+    {
+      "path": "public/fixtures/depth.glb",
+      "sha256": "4c484875a96f753c2bfa42f28e51c40902cbb9adf73f8382b86c03aaf0aceb80",
+      "bytes": 9992128
+    }
+  ],
+  "animation": "One 1.89 second STEP clip per model; 70 ms source cadence. Autoplay and loop enabled.",
+  "translation": "Separated original lettering; explicit KHR_materials_unlit graphic materials; export-only integer clock. No decimation or lossy position encoding.",
+  "viewer": "Standalone review fork, not unchanged application component. Two-pass orthographic fixed lettering, center camera orbit/zoom, shared animation timeline.",
+  "excluded": "No native .blend files, source GIF, account/configuration data, absolute authoring paths, logs or local session metadata.",
+  "thumbnails": "PNG metadata stripped before public upload; pixel comparison AE=0 against native render inputs. Original local renders unchanged."
+}
