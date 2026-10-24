@@ -1,0 +1,49 @@
+{
+  "title": "Parujące Kosze — płaska i przestrzenna",
+  "notice": "Płaska wersja: zaakceptowany wygląd w Blenderze. Wersja 3D: kandydat do oceny. Napisy są nieruchome; przeciągasz tylko środek. Publiczny podgląd porównawczy, nie integracja z aplikacją.",
+  "defaultComparison": {
+    "left": "flat",
+    "right": "depth"
+  },
+  "presentation": {
+    "modelScale": 0.55,
+    "cameraPosition": [
+      0,
+      0,
+      3.5
+    ],
+    "cameraTarget": [
+      0,
+      0,
+      0
+    ],
+    "cameraFov": 35,
+    "framing": "Wspólna skala i połączone widoki środka. Napisy pozostają w stałym kadrze także przy obrocie i zoomie. Suwak i odtwarzanie sterują parą w obu panelach."
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Płaska — kontury z GIF-a",
+      "shortName": "Płaska",
+      "status": "Wygląd Blender zaakceptowany",
+      "statusTone": "approved",
+      "description": "Cienka sylwetka źródłowa. Nieruchome oryginalne napisy; 27 klatek animacji pary.",
+      "triangles": 69572,
+      "artifactScope": "Transport do podglądu; wygląd web niezatwierdzony. Trójkąty obejmują wszystkie zapisane klatki.",
+      "modelUrl": "fixtures/flat.glb",
+      "thumbnailUrl": "thumbnails/flat.png"
+    },
+    {
+      "id": "depth",
+      "name": "Przestrzenna — kosz 3D",
+      "shortName": "Kosz 3D",
+      "status": "Kandydat — do oceny",
+      "statusTone": "pending",
+      "description": "Okrągły kosz, przestrzenne żebra i zaokrąglona para. Te same nieruchome napisy.",
+      "triangles": 530976,
+      "artifactScope": "Transport do podglądu; wygląd web niezatwierdzony. Trójkąty obejmują wszystkie zapisane klatki.",
+      "modelUrl": "fixtures/depth.glb",
+      "thumbnailUrl": "thumbnails/depth.png"
+    }
+  ]
+}

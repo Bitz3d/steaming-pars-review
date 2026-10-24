@@ -1,0 +1,17 @@
+{
+  "name": "steaming-pars-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Animated flat vs 3D review with fixed original-mesh lettering",
+  "scripts": { "build": "vite build", "dev": "vite", "preview": "vite preview" },
+  "dependencies": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "three": "0.185.1",
+    "three-stdlib": "2.36.1",
+    "@react-three/fiber": "9.7.0",
+    "@react-three/drei": "10.7.8"
+  },
+  "devDependencies": { "vite": "7.3.0" }
+}
